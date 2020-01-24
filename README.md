@@ -77,7 +77,7 @@ As general advice, use UDP unless you have issues or a specific reason to use TC
 
 	Then compare the output. My results are below:
 
-	[Insert openssl comparison screenshot - openssl-output.jpg]
+	![](res/openssl-output.png)
 
 	As you can see, hardware acceleration makes a reasonably large impact, as AES-256-CBC is approximately 5 times faster than AES-256-GCM; an inversion of what we would expect if all things were equal.
 
